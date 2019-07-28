@@ -1,0 +1,124 @@
+.checked {
+  color: #000;
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.fa {
+  margin-left: 1em;
+  margin-right: 1em;
+  color: #bbb;
+}
+
+.fa:hover {
+  color:red;
+}
+
+.fa-trash {
+  color: #000;
+}
+
+.fa-plus-circle {
+  color: #000;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.fa-minus-circle {
+  color: #000;
+  font-size: 25px;
+  cursor: pointer;
+  float: right;
+  margin-left: 0.5em;
+  margin-top: 0.7em;
+  position: absolute;
+}
+
+.btn {
+  margin-left: 10px;
+  margin-right: 3rem;
+  color: #000;
+  border-color: #000;
+  border-radius: 10px;
+  float: right;
+}
+
+.input {
+  max-width: 50rem;
+  margin: 10px 10px;
+}
+
+.new {
+  max-width: 22rem;
+  margin: 10px 10px;
+  display: inline;
+}
+
+.head {
+  max-width: 28rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px auto;
+  margin-right: 0px auto;
+}
+
+.list {
+  border: 1px dashed #007bff;
+  background-color: #77DDFF;
+  border-radius: 5px;
+  max-width: 30rem;
+  padding-top: 1rem;
+  padding-bottom: : 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.list:hover {
+  border: 1px dashed #fd7e14;
+  opacity: 0.9;
+  background-color: #ffc107;
+}
+
+.wrap {
+  max-width: 28rem;
+  background-color: #77FFCC;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+input[type=text] {
+  border: 1px dashed #007bff;
+  border-radius: 5px;
+}
+
+input[type=text]:hover {
+  border: 1px dashed #fd7e14;
+  border-radius: 5px;
+  background-color: #ffc107;
+}
+
+li>label[for='todo'] {
+  width: 22rem;
+  padding: 5px 15px;
+}
+
+li>label[for='todo']:hover {
+ color:red;
+ text-decoration: line-through;
+}
+
+li>label[for='done'] {
+  width: 22rem;
+  padding: 5px 15px;
+}
+
+li>label[for='done']:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+.clearfix {
+  clear: both;
+}
