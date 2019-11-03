@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RGB to Hex Converter</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  
+<div class="container mt-5" align="center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md" style="color: red;">
+       R
+      </div>
+      <div class="col-6-md-auto">
+        <div class="form-group">
+          <input type="range" class="custom-range" min="0" max="255" step="1" value="125" id="redRange">
+        </div>
+      </div>
+      <div class="col">
+        <label for="customRange3" id="red" style="color: red;">125<!--color code --></label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md" style="color: green;">
+       G
+      </div>
+      <div class="col-6-md-auto">
+        <div class="form-group">
+          <input type="range" class="custom-range" min="0" max="255" step="1" value="125" id="greenRange">
+        </div>
+      </div>
+      <div class="col">
+        <label for="customRange3" id="green" style="color: green;">125<!--color code --></label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md" style="color: blue;">
+       B
+      </div>
+      <div class="col-6-md-auto">
+        <div class="form-group">
+          <input type="range" class="custom-range" min="0" max="255" step="1" value="125" id="blueRange">
+        </div>
+      </div>
+      <div class="col">
+        <label for="customRange3" id="blue" style="color: blue;">125<!--color code --></label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="ColorBg" id="hexColor">
+        #7d7d7d <!--color code -->
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
